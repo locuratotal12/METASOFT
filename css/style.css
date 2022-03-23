@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header{
+    width: 100%;
+    background-image: url(../imagenes/bannnerdoja.jpeg);
+    height: 995px;
+    background-size: cover;
+}
+header h1{
+    background-color: rgb(230, 199, 224);
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: rgb(219, 138, 215);
+}
+header h1 span{
+    background-color: rgb(230, 199, 224);
+    color: rgb(0, 255, 234);
+}
+header img{
+    width: 100%;
+}
+
+section{
+    height: 100%;
+
+}
+nav{
+    width: 100%;
+}
+
+nav ul{
+    background-color: rgb(230, 199, 224);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+/*nav ul li a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 181);
+    color: rgb(230, 199, 224);
+    font-size: 2.5rem;
+    border: 1px solid rgb(255, 255, 181);
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 1px 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(185, 153, 179);
+    border: rgb(185, 153, 179);
+    color: white;
+}*/
+.boletin{
+    background-color: rgb(230, 199, 224);
+    color: rgb(255, 255, 181);
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    font-size: 25px;
+}
+.boletin p{
+    text-decoration: none;
+    color: rgb(255, 255, 181);
+    font-size: 2.5rem;
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 1px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 181);
+    font-size: 2.5rem;
+}
+
+nav ul li a:hover{
+    border: 3px solid rgb(255, 255, 181);
+    color: white;
+    border-radius: 10px;
+    padding: 1px 10px;
+}
+footer{
+    height: 80px;
+    background-color: rgb(230, 199, 224);
+    color: rgb(0, 255, 234);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.caja1{
+    background-color: rgb(230, 199, 224);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.tarjet{
+    background-color: rgb(255, 255, 181);
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.tarjet img{
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+}
+section h2{
+    color: rgb(0, 255, 234);
+    background-color: rgb(230, 199, 224);
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+
+section h3{
+    color: rgb(219, 138, 215);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.caja2{
+    background-color: rgb(61, 38, 57);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.caja2 h2{
+    color: rgb(0, 255, 234);
+    background-color: rgb(61, 38, 57);
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+.caja2 p{
+    color: rgb(0, 255, 234);
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+.caja2 img{
+    background-color: seagreen;
+    margin: 0%;
+    padding: 0%;
+}
+.contenedor{
+    background-color: rgb(230, 199, 224);
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.formulario input{
+    width: 95%;
+    height: 50px;
+    border: 1px solid #33465544;
+}
+.formulario textarea{
+    width: 95%;
+    border: 1px solid #33465544;
+}
+.formulario .boton{
+    background-color: rgb(0, 255, 234);
+    border: none;
+    color: #fff;
+    padding: 7px;
+}
+.formulario .boton:hover{
+    color: rgb(255, 255, 181);
+    background: rgb(230, 199, 224);
+}
+.texto3{
+    color: #fff;
+    background-color: rgb(61, 38, 57);
+    padding: 20px;
+}
+.texto4{
+    width: 30%;
+}
+.texto4 img {
+    width: 100%;
+    margin-top: 34px;
+}
+.formulario input{
+    width: 1000px;
+    height: 50px;
+    border: 1px solid #33465544;
+}
+
+.formulario textarea{
+    width: 79%;
+    border: 1px solid #33465544;
+}
+
+.formulario .boton{
+    background-color: rgb(0, 255, 234);
+    border: none;
+    color: rgb(238, 15, 15);
+    padding: 7px;
+}
+
+.formulario .boton:hover{
+    color: rgb(255, 255, 181);
+    background: rgb(230, 199, 224);
+}
+
+.texto3{
+    color: #fff;
+    background-color: #374149;
+    padding: 20px;
+}
+
+.texto4{
+    width: 30%;
+}
+
+.texto4 img {
+    width: 100%;
+    margin-top: 34px;
+}
+.servicios{
+    display: flex;
+    padding: 30px 150px;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: rgb(61, 38, 57);
+}
+
+.tituloservicios{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.serviciosvarios{
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 1px solid #33465544;
+    margin: 4px;
+    padding: 25px;
+    
+}
+
+.serviciosquehacemos{
+    display: flex;
+    padding: 30px 150px;
+    justify-content: flex-end;
+    position: absolute;
+}
+.boletin P{
+    color: rgb(0, 255, 234);
+}
+.texto1{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texto1 .texto{
+    padding: 30px 0;
+}
+.formulario button{
+    width: 1000px;
+    height: 50px;
+    color: rgb(219, 138, 215);
+    border-radius: 10px;
+    padding: 1px 10px;
+    background-color: rgb(0, 255, 234);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
